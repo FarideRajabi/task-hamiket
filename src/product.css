@@ -1,0 +1,26 @@
+.product{
+  margin: 2px;
+  background: rgb(245, 245, 245);
+  border-radius: 1rem;
+  padding: 40px;
+  width: 200px!important;
+  height: 350px!important;
+  float: right;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+body {
+  height: 500px!important;
+  background-color: green;
+}
+
+.tag {
+  text-align: center;
+}
+
+.slick-slide img {
+  width: 200px;
+  height: 200px;
+}
