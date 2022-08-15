@@ -9,18 +9,31 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 body {
-  height: 500px!important;
+  height: 300px!important;
+  width: 5800px!important;
   background-color: green;
 }
 
-.tag {
-  text-align: center;
+.handbag{
+  margin: 0 600px;
+  color: yellow;
+  font-size: 30px;
 }
 
-.slick-slide img {
+ img {
   width: 200px;
   height: 200px;
+}
+
+button{
+ margin-left: 100px;
+}
+
+.add{
+  background-color: green;
+  padding: 2px 7px;
 }
